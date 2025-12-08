@@ -1,0 +1,181 @@
+:root {
+  --ch-primary-color: #A627FC;
+  --ch-secondary-color: #00B9E7;
+}
+
+/*colores*/
+.ch-bg-primary,
+.ch-btn-primary {
+  background-color: var(--ch-primary-color) !important;
+}
+
+.ch-bg-secondary,
+.ch-btn-secondary {
+  background-color: var(--ch-secondary-color) !important;
+}
+
+.ch-bg-white {
+  background-color: #fff !important;
+}
+
+.ch-color-primary {
+  color: var(--ch-primary-color) !important;
+}
+
+.ch-color-secondary {
+  color: var(--ch-secondary-color) !important;
+}
+
+.ch-color-white,
+.ch-btn-primary,
+.ch-btn-secondary {
+  color: #fff !important;
+}
+
+.ch-color-black {
+  color: #000;
+}
+
+/*colores*/
+
+
+/* Carousel */
+.swiper {
+  width: 100%;
+  height: fit-content;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: cover;
+  width: 100%;
+  object-fit: inherit;
+  filter: brightness(70%);
+  height: 100vh;
+}
+
+.ch-swiper-navigation-color-primary {
+  --swiper-navigation-color: var(--ch-primary-color);
+}
+
+.ch-swiper-navigation-color-secondary {
+  --swiper-navigation-color: var(--ch-secondary-color);
+}
+
+.ch-swiper-pagination-color-primary {
+  --swiper-pagination-color: var(--ch-primary-color);
+}
+
+.ch-swiper-pagination-color-secondary {
+  --swiper-pagination-color: var(--ch-secondary-color);
+}
+/* Carousel */
+
+
+/*navbar*/
+.ch-menu-active-line {
+  border-bottom: 3px solid;
+}
+
+.ch-bg-transparent {
+  background-color: transparent !important;
+}
+
+.ch-menu-hover:hover {
+  background-color: rgba(255, 255, 255, 0.244);
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+/*navbar*/
+
+
+/* toltips */
+.ch-tooltip-primary {
+  --tt-bg: var(--ch-primary-color) !important;
+  /* Color de fondo del tooltip */
+}
+
+.ch-tooltip-secondary {
+  --tt-bg: var(--ch-secondary-color) !important;
+  /* Color de fondo del tooltip */
+}
+
+/* toltips */
+
+/* others */
+.ch-bg-image-fixed {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.ch-btn-neon-pulse {
+  position: relative;
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  min-width: 200px;
+  z-index: 1;
+  background: var(--ch-secondary-color);
+  border: 2px solid var(--ch-secondary-color);
+  overflow: visible;
+  border-radius: 5px;
+}
+
+
+.ch-btn-neon-pulse::before,
+.ch-btn-neon-pulse::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border: 2px solid var(--ch-secondary-color);
+  border-radius: inherit;
+  animation: pulseOut 2s ease-out infinite;
+  opacity: 0;
+}
+
+.ch-btn-neon-pulse::after {
+  animation-delay: 1s;
+}
+
+@keyframes pulseOut {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* others */
+
+/* develomemt */
+.bg {
+  background-color: red !important;
+}
+
+/* develomemt */
+
+/* clases CSS modificadas de daisyUI */
+.btn {
+  border: none !important;
+  box-shadow: none !important;
+  letter-spacing: 0.5px !important;
+}
+
+/* clases CSS modificadas de daisyUI */
