@@ -19,7 +19,7 @@
              diversos sectores, reafirmamos nuestra creencia en la “Innovación Política”,
              convencidos de que los desafíos urbanos no se superarán con ideologías, sino con una
              visión de desarrollo centrada en el bienestar de cada persona.
-             Ciudad Humana no es solo un movimiento, es una promesa de cambio. Trabajamos para
+             Innovación Humana no es solo un movimiento, es una promesa de cambio. Trabajamos para
              transformar nuestras ciudades en espacios donde la vida y la dignidad de sus habitantes
              son prioridad, donde el cuidado mutuo y la mejora de la calidad de vida son el objetivo
              común. Es un compromiso que compartimos con todos aquellos que creen en una

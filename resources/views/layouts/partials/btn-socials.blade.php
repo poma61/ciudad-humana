@@ -1,8 +1,7 @@
         <!-- Facebook -->
-        <a href="https://facebook.com/tuPagina" target="_blank" rel="noopener" aria-label="Facebook"
-            class="tooltip tooltip-left ch-tooltip-primary" data-tip="Facebook">
-
-            <button class="btn btn-xl btn-circle ch-btn-primary shadow-lg">
+        <a href="https://www.facebook.com/profile.php?id=61561362172669" target="_blank" rel="noopener"
+            aria-label="Facebook" class="tooltip tooltip-left ch-tooltip-primary" data-tip="Facebook">
+            <button class="btn btn-lg btn-circle ch-btn-primary shadow-lg">
                 {{-- SVG Facebook --}}
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -13,21 +12,21 @@
         </a>
 
         <!-- X / Twitter -->
-        <a href="https://twitter.com/tuCuenta" target="_blank" rel="noopener" aria-label="Twitter"
+        <a href="https://x.com/@CiudadHumanaBo" target="_blank" rel="noopener" aria-label="Twitter"
             class="tooltip tooltip-left ch-tooltip-primary" data-tip="Twitter">
-            <button class="btn btn-circle btn-xl ch-btn-primary shadow-lg">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"
-                    aria-hidden="true">
+            <button class="btn btn-circle btn-lg ch-btn-primary shadow-lg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                    fill="currentColor">
                     <path
-                        d="M22 5.92c-.66.3-1.37.5-2.12.59.76-.46 1.34-1.2 1.61-2.07-.71.42-1.5.72-2.34.88A3.41 3.41 0 0015.5 4c-1.88 0-3.4 1.52-3.4 3.4 0 .27.03.54.09.79C8.95 8 6 6.3 3.98 3.68c-.3.52-.47 1.12-.47 1.76 0 1.21.62 2.28 1.57 2.91-.58-.02-1.12-.18-1.6-.45v.05c0 1.65 1.17 3.03 2.72 3.35-.28.08-.57.12-.87.12-.21 0-.42-.02-.62-.06.42 1.31 1.62 2.27 3.05 2.3A6.83 6.83 0 012 19.54a9.62 9.62 0 005.2 1.52c6.24 0 9.66-5.17 9.66-9.66v-.44c.66-.48 1.22-1.08 1.67-1.76-.6.27-1.25.45-1.93.53z" />
+                        d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
                 </svg>
             </button>
         </a>
 
         <!-- Instagram -->
-        <a href="https://instagram.com/tuCuenta" target="_blank" rel="noopener" aria-label="Instagram"
+        <a href="https://www.instagram.com/innovacionhumana2026" target="_blank" rel="noopener" aria-label="Instagram"
             class="tooltip tooltip-left ch-tooltip-primary" data-tip="Instagram">
-            <button class="btn btn-circle btn-xl ch-btn-primary shadow-lg">
+            <button class="btn btn-circle btn-lg ch-btn-primary shadow-lg">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                     class="lucide lucide-instagram-icon lucide-instagram">
@@ -39,9 +38,9 @@
         </a>
 
         <!-- YouTube -->
-        <a href="https://youtube.com/tuCanal" target="_blank" rel="noopener" aria-label="YouTube"
+        <a href="https://www.youtube.com/@CiudadHumana" target="_blank" rel="noopener" aria-label="YouTube"
             class="tooltip tooltip-left ch-tooltip-primary" data-tip="YouTube">
-            <button class="btn btn-circle btn-xl ch-btn-primary shadow-lg">
+            <button class="btn btn-circle btn-lg ch-btn-primary shadow-lg">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                     class="lucide lucide-youtube-icon lucide-youtube">
@@ -52,16 +51,27 @@
             </button>
         </a>
 
-        <!-- WhatsApp -->
-        <a href="https://wa.me/591XXXXXXXX" target="_blank" rel="noopener" aria-label="WhatsApp"
-            class="tooltip tooltip-left ch-tooltip-primary" data-tip="WhatsApp">
-            <button class="btn btn-circle btn-xl ch-btn-primary shadow-lg">
-                {{-- Icono de Whatsapp --}}
-                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24"
+        <!-- TikTok -->
+        <a href="https://www.tiktok.com/@innovacionhumana" target="_blank" rel="noopener" aria-label="TikTok"
+            class="tooltip tooltip-left ch-tooltip-primary" data-tip="TikTok">
+            <button class="btn btn-circle btn-lg ch-btn-primary shadow-lg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
                     fill="#fff">
+                    <path
+                        d="M22.5 9.84202C20.4357 9.84696 18.4221 9.20321 16.7435 8.00171V16.3813C16.7429 17.9333 16.2685 19.4482 15.3838 20.7233C14.499 21.9984 13.246 22.973 11.7923 23.5168C10.3387 24.0606 8.75362 24.1477 7.24914 23.7664C5.74466 23.3851 4.39245 22.5536 3.37333 21.383C2.3542 20.2125 1.71674 18.7587 1.54617 17.2161C1.3756 15.6735 1.68007 14.1156 2.41884 12.7507C3.15762 11.3858 4.2955 10.279 5.68034 9.57823C7.06517 8.87746 8.63095 8.61616 10.1683 8.82927V13.0439C9.4648 12.8227 8.70938 12.8293 8.0099 13.063C7.31041 13.2966 6.70265 13.7453 6.2734 14.345C5.84415 14.9446 5.61536 15.6646 5.6197 16.402C5.62404 17.1395 5.8613 17.8567 6.29759 18.4512C6.73387 19.0458 7.34688 19.4873 8.04906 19.7127C8.75125 19.9381 9.5067 19.9359 10.2075 19.7063C10.9084 19.4768 11.5188 19.0316 11.9515 18.4345C12.3843 17.8374 12.6173 17.1188 12.6173 16.3813V0H16.7435C16.7406 0.348435 16.7698 0.696395 16.8307 1.03948V1.03948C16.9741 1.80537 17.2722 2.53396 17.7068 3.18068C18.1415 3.8274 18.7035 4.37867 19.3585 4.80075C20.2903 5.41688 21.3829 5.74528 22.5 5.74505V9.84202Z" />
+                </svg>
+            </button>
+        </a>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.link/b44pbz" target="_blank" rel="noopener" aria-label="WhatsApp"
+            class="tooltip tooltip-left ch-tooltip-primary" data-tip="WhatsApp">
+            <button class="btn btn-circle btn-lg ch-btn-primary shadow-lg">
+                {{-- Icono de Whatsapp --}}
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24">
                     <path fill="#fff"
                         d="M16.6 14c-.2-.1-1.5-.7-1.7-.8c-.2-.1-.4-.1-.6.1c-.2.2-.6.8-.8 1c-.1.2-.3.2-.5.1c-.7-.3-1.4-.7-2-1.2c-.5-.5-1-1.1-1.4-1.7c-.1-.2 0-.4.1-.5c.1-.1.2-.3.4-.4c.1-.1.2-.3.2-.4c.1-.1.1-.3 0-.4c-.1-.1-.6-1.3-.8-1.8c-.1-.7-.3-.7-.5-.7h-.5c-.2 0-.5.2-.6.3c-.6.6-.9 1.3-.9 2.1c.1.9.4 1.8 1 2.6c1.1 1.6 2.5 2.9 4.2 3.7c.5.2.9.4 1.4.5c.5.2 1 .2 1.6.1c.7-.1 1.3-.6 1.7-1.2c.2-.4.2-.8.1-1.2l-.4-.2m2.5-9.1C15.2 1 8.9 1 5 4.9c-3.2 3.2-3.8 8.1-1.6 12L2 22l5.3-1.4c1.5.8 3.1 1.2 4.7 1.2c5.5 0 9.9-4.4 9.9-9.9c.1-2.6-1-5.1-2.8-7m-2.7 14c-1.3.8-2.8 1.3-4.4 1.3c-1.5 0-2.9-.4-4.2-1.1l-.3-.2l-3.1.8l.8-3l-.2-.3c-2.4-4-1.2-9 2.7-11.5S16.6 3.7 19 7.5c2.4 3.9 1.3 9-2.6 11.4" />
                 </svg>
-
             </button>
         </a>
+

@@ -1,73 +1,63 @@
- <!-- NAVBAR -->
- <nav class="navbar bg-base-100 shadow-md z-20 top-10 pt-10 md:pt-0
-  {{ empty($is404) ? 'ch-bg-transparent absolute ch-color-white' : 'fixed' }}"
-     id="navbar">
-     <div class="navbar-start">
-         <div class="drawer xl:hidden">
-             <input id="my-drawer-1" type="checkbox" class="drawer-toggle" />
-             <div class="drawer-content">
-                 <!-- Page content here -->
-                 <label for="my-drawer-1" class='btn'>
-                     <i data-lucide='menu'></i>
-                 </label>
-             </div>
-             <div class="drawer-side">
-                 <label for="my-drawer-1" aria-label="close sidebar" class="drawer-overlay"></label>
-                 <ul class="menu bg-base-100 min-h-full w-80 p-5 pt-15 ch-color-black">
-                     @include('layouts.partials.nb-menu')
-                 </ul>
-             </div>
-         </div>
-         <a href="{{ Route('n-home') }}" style="height: 50px; width: 150px">
-             <img  src="{{ asset('assets/icons/ch-logo.png') }}" alt="logo"
-              >
-         </a>
-     </div>
+<!-- NAVBAR -->
+<nav class="navbar shadow-md z-50 ch-bg-transparent absolute p-0 m-0" id="navbar">
+    <div class="navbar-start">
+        <div class="drawer xl:hidden">
+            <input id="my-drawer-1" type="checkbox" class="drawer-toggle" />
+            <div class="drawer-content">
+                <!-- Page content here -->
+                <label for="my-drawer-1" class='btn'>
+                    <i data-lucide='menu'></i>
+                </label>
+            </div>
+            <div class="drawer-side">
+                <label for="my-drawer-1" aria-label="close sidebar" class="drawer-overlay"></label>
+                <ul class="menu bg-base-100 min-h-full w-80 p-5 pt-15">
+                    @include('layouts.partials.nb-menu')
+                </ul>
+            </div>
+        </div>
+        <div class="hidden xl:block">
+            <a href="{{ Route('n-home') }}">
+                <img src="{{ asset('assets/icons/innovacion-humana.png') }}" alt="logo"
+                    style="height: 70px; width: 120px">
+            </a>
+        </div>
+    </div>
 
-     <div class="navbar-center hidden xl:flex 
-     {{ empty($is404) ? 'ch-bg-transparent' : '' }}" id="navbar-center">
-         <ul class="menu menu-horizontal">
-             @include('layouts.partials.nb-menu')
-         </ul>
-     </div>
+    <div class="navbar-center ch-bg-transparent ch-color-white min-w-40" id="navbar-center">
+        <ul class="menu menu-horizontal hidden xl:flex">
+            @include('layouts.partials.nb-menu')
+        </ul>
+        <a href="{{ route('n-home') }}" class="xl:hidden w-full flex justify-center">
+            <img src="{{ asset('assets/icons/innovacion-humana.png') }}" alt="logo"
+                style="height: 70px; width: 120px">
+        </a>
+    </div>
 
-     <div class="navbar-end mr-2" id="navbar-end">
-         <label class="swap swap-rotate">
-             <!-- this hidden checkbox controls the state -->
-             <input type="checkbox" class="theme-controller" value="dark" />
-             <i class="btn swap-off btn-sm btn-ghost btn-circle m-1" data-lucide="sun"></i>
-             <i class="btn swap-on btn-sm btn-ghost btn-circle  m-1" data-lucide="moon"></i>
-         </label>
-         <a class="btn m-1 ch-btn-primary">Únete</a>
-         <button class="btn btn-circle btn-ghost" onclick="modal_search.showModal()">
-             <i data-lucide="search"></i>
-         </button>
-     </div>
- </nav>
+    <div class="navbar-end mr-2" id="navbar-end">
+        <label class="toggle text-base-content" style="border: 1px solid #aaaaaa">
+            <input type="checkbox" value="dark" class="theme-controller" />
+            <svg aria-label="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" stroke="currentColor">
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <path d="M12 2v2"></path>
+                    <path d="M12 20v2"></path>
+                    <path d="m4.93 4.93 1.41 1.41"></path>
+                    <path d="m17.66 17.66 1.41 1.41"></path>
+                    <path d="M2 12h2"></path>
+                    <path d="M20 12h2"></path>
+                    <path d="m6.34 17.66-1.41 1.41"></path>
+                    <path d="m19.07 4.93-1.41 1.41"></path>
+                </g>
+            </svg>
 
+            <svg aria-label="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" stroke="currentColor">
+                    <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                </g>
+            </svg>
 
- <!-- You can open the modal using ID.showModal() method -->
- <dialog id="modal_search" class="modal">
-     <div class="modal-box max-w-5xl">
-         <form method="dialog">
-             <button type="submit" class="btn btn-md btn-circle btn-ghost absolute right-2 top-2">
-                 <i data-lucide="x"></i>
-             </button>
-         </form>
-
-         <h3 class="text-2xl font-bold italic mb-5">Buscar</h3>
-         <label class="input input-info input-xl w-full">
-             <i data-lucide="search"></i>
-             <input type="text" id="searchInput" placeholder="Buscar..." autofocus />
-         </label>
-
-         <div class="modal-action">
-             <button onclick="search()" class="btn p-2 ch-btn-secondary">
-                 Buscar
-             </button>
-         </div>
-     </div>
-     <form method="dialog" class="modal-backdrop">
-         <button>close</button>
-     </form>
- </dialog>
+        </label>
+        <a class="btn m-1 ch-btn-primary" href="{{ route('n-unete') }}">Únete</a>
+    </div>
+</nav>

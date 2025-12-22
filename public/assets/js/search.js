@@ -44,4 +44,3 @@ document.getElementById('searchInput').addEventListener('keydown', function (eve
     }
 });
 
-

@@ -5,11 +5,17 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
     plugins: [
         laravel({
-            input: ['resources/css/app.css', 'resources/js/app.js'],
+            input: [
+                // 'resources/css/app.css',
+                // 'resources/js/app.js',
+                'resources/js/lucideConfig.js',
+                'resources/js/animateConfig.js',
+            ],
             refresh: true,
         }),
         tailwindcss(),
     ],
+
     // // Forzar a vite que corra solamente en mi IP
     // server: {
     //     host: '0.0.0.0',
@@ -19,5 +25,6 @@ export default defineConfig({
     //         port: 5173,
     //     }
     // },
+
 });
 

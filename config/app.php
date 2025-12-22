@@ -2,6 +2,12 @@
 
 return [
 
+    'routesNavBarExcluded' => [
+        'n-dockweiler',
+        'n-unete',
+        'n-noticia',
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -65,7 +71,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'America/La_Paz',
 
     /*
     |--------------------------------------------------------------------------

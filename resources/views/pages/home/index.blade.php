@@ -2,17 +2,17 @@
 
 @section('main-content')
     <!-- Swiper -->
-    <div class="swiper mySwiper ch-swiper-navigation-color-secondary ch-swiper-pagination-color-secondary">
+    <div class="swiper homeSwiper" style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="{{ asset('assets/img/ch-01.JPG') }}" alt="Imagen Ciudad Humana">
+                <img  src="{{ asset('assets/img/ch-01.JPG') }}" alt="Imagen Ciudad Humana">
                 <div class="absolute animate__animated animate__fadeInUp">
                     <div class="max-w-3xl p-10 m-5 md:m-10">
                         <h1 class="text-5xl font-bold mb-4  ch-color-white">
-                            Bienvenido a Ciudad Humana
+                            Bienvenido a Innovación Humana
                         </h1>
-                        <p class="text-xl ch-color-white">
-                            En Ciudad Humana, creemos en un futuro donde cada habitante pueda florecer en un entorno que
+                        <p class="text-lg ch-color-white">
+                            En Innovación Humana, creemos en un futuro donde cada habitante pueda florecer en un entorno que
                             prioriza la vida, el bienestar y, sobre todo, la innovación.
                         </p>
                         <div class="mt-10">
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('assets/img/ch-03.jpg') }}" alt="Imagen Ciudad Humana" style="filter: brightness(90%);">
+                <img src="{{ asset('assets/img/ch-03.png') }}" alt="Imagen Ciudad Humana" style="filter: brightness(90%);">
                 <div class="absolute">
                     <div class="max-w-3xl p-10 m-5 md:m-10">
                         <h4
@@ -58,7 +58,7 @@
 
 @section('script')
     <script>
-        var swiper = new Swiper(".mySwiper", {
+        var swiper = new Swiper(".homeSwiper", {
             spaceBetween: 1,
             centeredSlides: true,
             autoplay: {

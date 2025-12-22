@@ -3,7 +3,7 @@
         <div class='card-title'>
             <div class="avatar">
                 <div class="w-10 rounded">
-                    <img src="{{ asset('assets/icons/ch-icon-muneco-morado.png') }}" alt="Ciudad Humana" />
+                    <img src="{{ asset('assets/icons/ch-icon-muneco-morado.png') }}" alt="Innovación Humana" />
                 </div>
             </div>
             <h3 class="font-bold text-xl ch-color-secondary"> Sostenibilidad </h3>
@@ -18,7 +18,7 @@
         <div class="card-title">
             <div class="avatar">
                 <div class="w-10 rounded">
-                    <img src="{{ asset('assets/icons/ch-icon-muneco-morado.png') }}" alt="Ciudad Humana" />
+                    <img src="{{ asset('assets/icons/ch-icon-muneco-morado.png') }}" alt="Innovación Humana" />
                 </div>
             </div>
             <h3 class="font-bold text-xl ch-color-secondary">Inclusividad</h3>
@@ -33,7 +33,7 @@
         <div class="card-title">
             <div class="avatar">
                 <div class="w-10 rounded">
-                    <img src="{{ asset('assets/icons/ch-icon-muneco-morado.png') }}" alt="Ciudad Humana" />
+                    <img src="{{ asset('assets/icons/ch-icon-muneco-morado.png') }}" alt="Innovación Humana" />
                 </div>
             </div>
             <h3 class="font-bold text-xl ch-color-secondary">Innovación </h3>
@@ -48,7 +48,7 @@
         <div class="card-title">
             <div class="avatar">
                 <div class="w-10 rounded">
-                    <img src="{{ asset('assets/icons/ch-icon-muneco-morado.png') }}" alt="Ciudad Humana" />
+                    <img src="{{ asset('assets/icons/ch-icon-muneco-morado.png') }}" alt="Innovación Humana" />
                 </div>
             </div>
             <h3 class="font-bold text-xl ch-color-secondary">Colaboración </h3>
@@ -63,7 +63,7 @@
         <div class="card-title">
             <div class="avatar">
                 <div class="w-10 rounded">
-                    <img src="{{ asset('assets/icons/ch-icon-muneco-morado.png') }}" alt="Ciudad Humana" />
+                    <img src="{{ asset('assets/icons/ch-icon-muneco-morado.png') }}" alt="Innovación Humana" />
                 </div>
             </div>
             <h3 class="font-bold text-xl ch-color-secondary"> Transparencia</h3>
@@ -78,7 +78,7 @@
         <div class="card-title">
             <div class="avatar">
                 <div class="w-10 rounded">
-                    <img src="{{ asset('assets/icons/ch-icon-muneco-morado.png') }}" alt="Ciudad Humana" />
+                    <img src="{{ asset('assets/icons/ch-icon-muneco-morado.png') }}" alt="Innovación Humana" />
                 </div>
             </div>
             <h3 class="font-bold text-xl ch-color-secondary">Empoderamiento </h3>
@@ -93,7 +93,7 @@
         <div class="card-title">
             <div class="avatar">
                 <div class="w-10 rounded">
-                    <img src="{{ asset('assets/icons/ch-icon-muneco-morado.png') }}" alt="Ciudad Humana" />
+                    <img src="{{ asset('assets/icons/ch-icon-muneco-morado.png') }}" alt="Innovación Humana" />
                 </div>
             </div>
             <h3 class="font-bold text-xl ch-color-secondary"> Respeto </h3>

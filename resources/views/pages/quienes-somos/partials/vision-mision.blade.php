@@ -9,14 +9,4 @@
             en un entorno de innovación y sostenibilidad, rodeada de oportunidades ilimitadas para impulsar su
             futuro."
         img="{{ asset('assets/img/planta-y-cesar.JPG') }}" titleClass="font-bold ch-color-secondary" />
-
-    <div class="card" >
-
-        <figure>
-            img
-        </figure>
-             efwffe
-
-    </div>
-
 </div>
