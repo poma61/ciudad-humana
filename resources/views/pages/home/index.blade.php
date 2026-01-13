@@ -16,7 +16,7 @@
                             prioriza la vida, el bienestar y, sobre todo, la innovación.
                         </p>
                         <div class="mt-10">
-                            <a href="{{ route('n-participa') }}" class="ch-btn-neon-pulse">
+                            <a href="{{ route('n-unete') }}" class="ch-btn-neon-pulse">
                                 Únete a Nosotros
                             </a>
                         </div>
@@ -78,3 +78,4 @@
         });
     </script>
 @endsection
+

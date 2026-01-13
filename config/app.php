@@ -6,6 +6,9 @@ return [
         'n-dockweiler',
         'n-unete',
         'n-noticia',
+        'n-noticia-show',
+        'n-candidatos',
+        'n-candidatos-show',
     ],
 
     /*

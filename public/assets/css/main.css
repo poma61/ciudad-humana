@@ -1,3 +1,4 @@
+
 :root {
   --ch-primary-color: #d980f9;
   --ch-secondary-color: #5dd5f7;
@@ -148,6 +149,12 @@
 
 
 /* others */
+
+img {
+    -webkit-user-drag: none !important;   /* Evita arrastrar imágenes */
+    user-drag: nonec !important;
+}
+
 .ch-bg-image-fixed {
   background-size: cover;
   background-position: center;

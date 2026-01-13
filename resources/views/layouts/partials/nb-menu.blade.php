@@ -16,7 +16,7 @@
 
 <li
     class="text-base ch-menu-hover {{ request()->routeIs('n-la-paz-2050') ? 'ch-menu-active-line ch-color-secondary' : '' }}">
-    <a class='py-3' href="{{ Route('n-la-paz-2050') }}"> La Paz 2050</a>
+    <a class='py-3' href="{{ Route('n-la-paz-2050') }}">La Paz 2050</a>
 </li>
 
 <li
@@ -24,12 +24,13 @@
     <a class='py-3' href="{{ Route('n-proyectos-y-programas') }}">Proyectos Priorizados</a>
 </li>
 
-{{-- <li 
-    class="text-base ch-menu-hover {{ request()->routeIs('n-participa') ? 'ch-menu-active-line ch-color-secondary' : '' }}">
-    <a class='py-3' href="{{ Route('n-participa') }}">Candidatos</a>
-</li> --}}
+<li 
+    class="text-base ch-menu-hover {{ request()->routeIs('n-candidatos') || request()->routeIs('n-candidatos-show') ? 'ch-menu-active-line ch-color-secondary' : '' }}">
+    <a class='py-3' href="{{ Route('n-candidatos') }}">Candidatos</a>
+</li>
 
 <li
-    class="text-base ch-menu-hover {{ request()->routeIs('n-noticia') ? 'ch-menu-active-line ch-color-secondary' : '' }}">
+    class="text-base ch-menu-hover {{ request()->routeIs('n-noticia') || request()->routeIs('n-noticia-show') ? 'ch-menu-active-line ch-color-secondary' : '' }}">
     <a class='py-3' href="{{ Route('n-noticia') }}">Noticias</a>
 </li>
+

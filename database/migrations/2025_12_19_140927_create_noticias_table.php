@@ -9,16 +9,18 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('noticias', function (Blueprint $table) {
+            $table->engine = 'InnoDB ROW_FORMAT=DYNAMIC';
             $table->id();
             $table->uuid('uuid')->unique();
             $table->string('slug')->unique();
+            $table->string('epigrafe', 255);
+            $table->string('titular', 400);
             $table->string('image')->nullable();
-            $table->string('title', 400);
-            $table->text('excerpt');
-            $table->longText('content');
-
-            $table->boolean('is_active')->default(true);
-            $table->timestamp('published_at');
+            $table->string('subtitulo', 400)->nullable();
+            $table->text('lead');
+            $table->longText('cuerpo');
+            $table->boolean('published')->default(true);
+            $table->date('date');
 
             $table->timestamps();
             $table->softDeletes();
@@ -30,4 +32,3 @@ return new class extends Migration
         Schema::dropIfExists('noticias');
     }
 };
-

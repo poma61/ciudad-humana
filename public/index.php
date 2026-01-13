@@ -17,4 +17,15 @@ require __DIR__.'/../vendor/autoload.php';
 /** @var Application $app */
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
+// // =================================================================
+// //  PARCHE PARA HOSTINGER (Agregar esto antes del handleRequest)
+// // =================================================================
+// // 1. Forzamos a Laravel a creer que el script se ejecuta en la raíz
+// // Si no hacemos esto, Laravel ve "/ciudadhumana.com/public/index.php" y lo agrega a las URLs
+// if (isset($_SERVER['SCRIPT_NAME'])) {
+//     $_SERVER['SCRIPT_NAME'] = '/index.php';
+// }
+
 $app->handleRequest(Request::capture());
+
+

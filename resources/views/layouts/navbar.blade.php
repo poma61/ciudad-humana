@@ -19,7 +19,7 @@
         <div class="hidden xl:block">
             <a href="{{ Route('n-home') }}">
                 <img src="{{ asset('assets/icons/innovacion-humana.png') }}" alt="logo"
-                    style="height: 70px; width: 120px">
+                    style="height: 50px; width: 120px">
             </a>
         </div>
     </div>
@@ -30,7 +30,7 @@
         </ul>
         <a href="{{ route('n-home') }}" class="xl:hidden w-full flex justify-center">
             <img src="{{ asset('assets/icons/innovacion-humana.png') }}" alt="logo"
-                style="height: 70px; width: 120px">
+                style="height: 50px; width: 120px">
         </a>
     </div>
 

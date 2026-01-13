@@ -10,6 +10,6 @@
 
 <a class='link link-hover mx-2 text-base' href="{{ Route('n-proyectos-y-programas') }}">Proyectos Priorizados</a>
 
-{{-- <a class='link link-hover mx-2 text-base' href="{{ Route('n-participa') }}">Candidatos</a> --}}
+<a class='link link-hover mx-2 text-base' href="{{ Route('n-candidatos') }}">Candidatos</a> 
 
 <a class='link link-hover mx-2 text-base' href="{{ Route('n-noticia') }}">Noticias</a>

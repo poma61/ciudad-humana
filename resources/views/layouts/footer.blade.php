@@ -4,7 +4,7 @@
         <div class="flex flex-wrap justify-around items-center w-full">
 
             <div class='flex flex-nowrap m-1'>
-                <img class="h-50 md:w-100 md:h-60" src="{{ asset('assets/icons/innovacion-humana-blanco.png') }}"
+                <img class="h-30 w-70 md:h-50 md:w-100 " src="{{ asset('assets/icons/innovacion-humana-blanco.png') }}"
                     alt="logo">
             </div>
 

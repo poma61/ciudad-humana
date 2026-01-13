@@ -22,14 +22,14 @@
                 </div>
 
                 <div class="max-w-2xl text-center lg:text-left animate__animated animate__fadeInLeft">
-                    <div class="badge ch-color-primary badge-outline mb-4 p-4 font-bold tracking-widest">FUNDADOR &
-                        PRESIDENTE
+                    <div class="badge ch-color-primary badge-outline mb-4 p-4 font-bold tracking-widest">
+                        FUNDADOR & PRESIDENTE
                     </div>
                     <h1 class="text-5xl lg:text-7xl font-bold mb-4 leading-tight">
                         César Luís Dockweiler Suarez
                     </h1>
                     <p class="py-6 text-lg text-base-content/80 leading-relaxed">
-                        César Luis Dockweiler nació en La Paz y creció entre la ciudad y Sorata. Estudió en el Instituto
+                        César Luis Dockweiler nació en La Paz y creció en Sorata. Estudió en el Instituto
                         Americano y se formó como economista; luego obtuvo un MBA, una Maestría en Planificación Estratégica
                         y el PhD en Gestión del Desarrollo y Políticas Públicas (UMSA). Sirvió más de dos décadas en la
                         Fuerza Aérea y, ya en la gestión pública, lideró Mi Teleférico entre 2012 y 2019, consolidando la
@@ -77,7 +77,7 @@
                             <i data-lucide="landmark" class="w-8 h-8 text-neutral"></i>
                         </div>
                         <h3 class="card-title text-lg">Secundaria</h3>
-                        <p class="text-sm">Instituto Americano</p>
+                        <p class="text-sm">Instituto Americano Convenio</p>
                         <div class="badge badge-ghost">La Paz</div>
                     </div>
                 </div>
@@ -138,8 +138,8 @@
                             <time class="font-mono italic text-sm opacity-70">1986 - 2009</time>
                             <div class="text-lg font-black mt-1">Formación Integral y Disciplina</div>
                             <p class="text-sm md:text-base mt-2">
-                                Inicia su carrera con una sólida formación dual. Se gradúa como **Piloto Militar** (FAB) y
-                                paralelamente obtiene la licenciatura en **Economía**.
+                                Inicia su carrera con una sólida formación dual. Se gradúa como Piloto Militar (FAB) y
+                                paralelamente obtiene la licenciatura en Economía.
                                 Complementa su perfil con dos maestrías: un MBA y una Maestría en Planificación Estratégica,
                                 destacando siempre con excelencia académica.
                             </p>
@@ -158,7 +158,7 @@
                             <div class="text-lg font-black mt-1">Consultoría Estratégica</div>
                             <p class="text-sm md:text-base mt-2">
                                 Funda y dirige empresas de desarrollo organizacional. Trabaja como consultor experto para
-                                **organismos internacionales y el sector privado**,
+                                organismos internacionales y el sector privado,
                                 liderando proyectos de reestructuración empresarial, cadenas productivas y planificación
                                 estratégica antes de asumir cargos públicos.
                             </p>
@@ -177,7 +177,7 @@
                             <div class="text-lg font-black mt-1">Diseño de la Movilidad Urbana</div>
                             <p class="text-sm md:text-base mt-2">
                                 Se incorpora al Viceministerio de Transportes. Realiza los estudios técnicos que
-                                determinaron que el **teleférico** era la solución ideal para La Paz y El Alto.
+                                determinaron que el teleférico era la solución ideal para La Paz y El Alto.
                                 Asume como Coordinador General para la implementación de las primeras tres líneas (Roja,
                                 Amarilla y Verde).
                             </p>
@@ -196,7 +196,7 @@
                             <div class="text-lg font-black mt-1">Gestión de Alto Impacto</div>
                             <p class="text-sm md:text-base mt-2">
                                 Como Gerente Ejecutivo de <span class="font-bold text-primary">Mi Teleférico</span>, lidera
-                                la construcción de **10 líneas interconectadas**,
+                                la construcción de 10 líneas interconectadas,
                                 logrando la red más extensa del mundo. Su gestión se caracterizó por la sostenibilidad
                                 financiera, cero accidentes y la creación de la "Cultura Teleférico".
                             </p>
@@ -214,7 +214,7 @@
                             <time class="font-mono italic text-sm opacity-70">2020 - Actualidad</time>
                             <div class="text-lg font-black mt-1">Liderazgo en Ciudad Humana</div>
                             <p class="text-sm md:text-base mt-2">
-                                Obtiene su **Ph.D. en Gestión del Desarrollo** (2024). Funda **Ciudad Humana**,
+                                Obtiene su Ph.D. en Gestión del Desarrollo (2024). Funda Ciudad Humana,
                                 consolidándola como agrupación política en 2025.
                                 Actualmente impulsa una visión de ciudad centrada en la vida y el bienestar, perfilándose
                                 como candidato para 2026.
@@ -226,11 +226,11 @@
         </section>
 
         {{-- frase de vida --}}
-        <section class="py-24 bg-gradient-to-br from-neutral  relative">
+        <section class="py-24 relative">
             <div class="container mx-auto px-4 text-center max-w-4xl relative z-0">
                 <i data-lucide="quote" class="w-12 h-12 mx-auto mb-6 ch-color-primary"></i>
                 <h3 class="text-2xl md:text-4xl  italic leading-normal mb-8">
-                    "Es fundamental que construyas tu vida ehn función de lo que te apasiona."
+                    "Es fundamental que construyas tu vida en función de lo que te apasiona."
                 </h3>
                 <div class="flex flex-col items-center gap-2">
                     <span class="font-bold text-lg">César Luís Dockweiler Suarez</span>
@@ -246,5 +246,10 @@
                 </div>
             </div>
         </section>
+
     </div>
 @endsection
+
+
+
+

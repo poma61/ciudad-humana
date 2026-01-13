@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\CandidatoController;
+use App\Http\Controllers\NoticiaController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -26,18 +28,20 @@ Route::get('/proyectos-y-programas', function () {
     return view('pages.proyectos-y-programas.index');
 })->name('n-proyectos-y-programas');
 
+Route::get('/innovacion-humana-noticias', [NoticiaController::class, 'index'])->name('n-noticia');
+Route::get('/innovacion-humana-noticias/{slug}', [NoticiaController::class, 'show'])->name('n-noticia-show');
+
 Route::get('/se-parte', function () {
-    return view('pages.participa.index');
-})->name('n-participa');
-
-Route::get('/innovacion-humana-noticias', function () {
-    return view('pages.noticias.index');
-})->name('n-noticia');
-
-Route::get('/unete', function () {
     return view('pages.unete.index');
 })->name('n-unete');
 
+
+Route::get('/candidatos-innovacion-humana', [CandidatoController::class, "index" ])->name('n-candidatos');
+
+
+Route::get('/candidatos-innovacion-humana/{slug}', [CandidatoController::class, "show" ])->name('n-candidatos-show');
+
+ 
 
 // Esto captura cualquier ruta no definida
 Route::fallback(function () {
