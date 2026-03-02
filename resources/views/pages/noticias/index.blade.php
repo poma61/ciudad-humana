@@ -38,12 +38,13 @@
                             {{-- Texto Destacada --}}
                             <div class="bg-base-200 p-8 md:p-12 flex flex-col justify-center relative">
                                 <div class="mb-4">
-                                    <span class="badge badge-primary badge-lg uppercase font-bold tracking-wider">
+                                    <span
+                                        class="badge ch-bg-primary text-white badge-md uppercase font-bold tracking-wider h-auto whitespace-normal py-1 text-center">
                                         {{ $destacada->epigrafe ?? 'RECIENTE' }}
                                     </span>
                                 </div>
                                 <h2
-                                    class="text-3xl md:text-4xl font-black leading-tight mb-4 group-hover:text-primary transition-colors">
+                                    class="text-2xl font-black leading-tight mb-4 group-hover:ch-color-primary transition-colors">
                                     {{ $destacada->titular }}
                                 </h2>
                                 <p class="text-base-content/70 text-lg mb-6 line-clamp-3">
@@ -53,7 +54,7 @@
                                     <i data-lucide="calendar" class="w-4 h-4"></i>
                                     {{ \Carbon\Carbon::parse($destacada->date)->locale('es')->translatedFormat('d M, Y') }}
                                     <span class="mx-2">•</span>
-                                    <span class="flex items-center gap-1 text-primary group-hover:underline">
+                                    <span class="flex items-center gap-1 ch-color-primary group-hover:underline">
                                         Leer más <i data-lucide="arrow-right" class="w-4 h-4"></i>
                                     </span>
                                 </div>
@@ -73,15 +74,6 @@
                                 <figure class="relative h-56 overflow-hidden">
                                     <img src="{{ Storage::url($item->image) }}" alt="{{ $item->titular }}"
                                         class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" />
-
-                                    @if ($item->epigrafe)
-                                        <div class="absolute top-4 left-4">
-                                            <span
-                                                class="badge badge-neutral bg-black/70 text-white border-none backdrop-blur-sm uppercase font-bold text-xs">
-                                                {{ $item->epigrafe }}
-                                            </span>
-                                        </div>
-                                    @endif
                                 </figure>
 
                                 <div class="card-body p-6 flex-1 flex flex-col">
@@ -90,6 +82,13 @@
                                         <i data-lucide="clock" class="w-3 h-3"></i>
                                         {{ \Carbon\Carbon::parse($item->date)->locale('es')->translatedFormat('d M, Y') }}
                                     </div>
+
+                                    @if ($item->epigrafe)
+                                        <span
+                                            class="badge ch-bg-primary text-white border-none backdrop-blur-sm uppercase font-bold text-xs h-auto whitespace-normal">
+                                            {{ $item->epigrafe }}
+                                        </span>
+                                    @endif
 
                                     <h3
                                         class="card-title text-xl font-bold leading-snug mb-3 hover:text-primary transition-colors">
@@ -102,7 +101,7 @@
                                     </p>
 
                                     <div class="card-actions justify-end mt-auto pt-4 border-t border-base-200 w-full">
-                                        <span class="btn btn-sm btn-ghost gap-2 text-primary pl-0 hover:bg-transparent">
+                                        <span class="btn btn-sm btn-ghost gap-2 ch-color-primary pl-0 hover:bg-transparent">
                                             Leer noticia <i data-lucide="arrow-right" class="w-4 h-4"></i>
                                         </span>
                                     </div>

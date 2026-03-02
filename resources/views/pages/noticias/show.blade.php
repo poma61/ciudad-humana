@@ -4,13 +4,13 @@
 @section('title', $noticia ? $noticia->titular : '' . ' - ')
 
 @section('meta_tags')
-    @if($noticia)
+    @if ($noticia)
         {{-- OPEN GRAPH (Facebook, WhatsApp, LinkedIn) --}}
         <meta property="og:title" content="{{ $noticia->titular }}">
         <meta property="og:description" content="{{ Str::limit($noticia->lead, 120) }}">
         <meta property="og:url" content="{{ url()->current() }}">
         <meta property="og:type" content="article">
-        
+
         {{-- IMPORTANTE: Usar asset('storage/...') asegura que salga la URL completa (http://...) --}}
         <meta property="og:image" content="{{ asset('storage/' . $noticia->image) }}">
 
@@ -25,7 +25,7 @@
 
 @section('main-content')
 
-    <div class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-base-100 min-h-screen">
+    <div class="pt-20 pb-20 px-4 sm:px-6 lg:px-8 bg-base-100 min-h-screen">
         @if ($noticia)
             <article class="max-w-4xl mx-auto">
 
@@ -39,12 +39,12 @@
                 </div>
 
                 {{-- CABECERA PERIODÍSTICA --}}
-                <header class="text-center mb-10 animate__animated animate__fadeInDown">
+                <header class="text-center mb-8 animate__animated animate__fadeInDown">
 
                     {{-- 1. Epígrafe (Texto pequeño sobre el título) --}}
                     @if ($noticia->epigrafe)
                         <div class="mb-3">
-                            <span class="uppercase tracking-widest text-sm font-bold text-primary">
+                            <span class="uppercase tracking-widest text-sm font-bold ch-color-primary">
                                 {{ $noticia->epigrafe }}
                             </span>
                         </div>
@@ -52,7 +52,7 @@
 
                     {{-- 2. Titular (Título principal) --}}
                     <h1
-                        class="text-3xl md:text-5xl lg:text-6xl font-black text-base-content mb-4 leading-tight text-shadow-sm">
+                        class="text-3xl  font-black text-base-content mb-4 leading-tight text-shadow-sm">
                         {{ $noticia->titular }}
                     </h1>
 
@@ -65,9 +65,10 @@
                     @endif
 
                     {{-- Fecha y Metadatos --}}
-                    <div class="flex items-center justify-center gap-2 text-sm text-base-content/60 py-2">
+                    <div class="flex items-center justify-center gap-2 text-lg">
                         <i data-lucide="clock" class="w-4 h-4"></i>
                         <time datetime="{{ $noticia->date }}">
+                            La Paz,
                             {{ \Carbon\Carbon::parse($noticia->date)->locale('es')->translatedFormat('d \d\e F, Y') }}
                         </time>
                     </div>
@@ -102,7 +103,7 @@
 
                 <div class="mt-16 pt-8 border-t border-base-300 gap-4 animate__animated animate__fadeIn animate__delay-2s">
                     <div class="flex justify-end">
-                        <span class="text-base-content/60">Innovación Humana</span>
+                        <span class="text-base-content/60">UCOM – INNOVACIÓN HUMANA</span>
                     </div>
                 </div>
 
