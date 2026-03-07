@@ -1,13 +1,69 @@
   @php
       $videos = [
+          // ultimos proyectos
           [
-              'title' => 'Av del Poeta ',
+              'title' => 'Mercado el Tejar',
+              'subtitle' => 'Programas y Proyectos de Innovación Humana',
+              'poster' => 'assets/videos/posters/mercado-el-tejar.png',
+              'video' => 'assets/videos/mercado-el-tejar.mp4',
+          ],
+          [
+              'title' => 'Sambo Salvito',
+              'subtitle' => 'Programas y Proyectos de Innovación Humana',
+              'poster' => 'assets/videos/posters/sambo-salvito.png',
+              'video' => 'assets/videos/sambo-salvito.mp4',
+          ],
+          [
+              'title' => 'Parque Urbano Central',
+              'subtitle' => 'Programas y Proyectos de Innovación Humana',
+              'poster' => 'assets/videos/posters/parque-urbano-central.png',
+              'video' => 'assets/videos/parque-urbano-central.mp4',
+          ],
+          [
+              'title' => 'Parque Munaypata',
+              'subtitle' => 'Programas y Proyectos de Innovación Humana',
+              'poster' => 'assets/videos/posters/parque-munaypata.png',
+              'video' => 'assets/videos/parque-munaypata.mp4',
+          ],
+          [
+              'title' => 'Mercado Vergel',
+              'subtitle' => 'Programas y Proyectos de Innovación Humana',
+              'poster' => 'assets/videos/posters/mercado-vergel.png',
+              'video' => 'assets/videos/mercado-vergel.mp4',
+          ],
+          [
+              'title' => 'Jinchupalla',
+              'subtitle' => 'Programas y Proyectos de Innovación Humana',
+              'poster' => 'assets/videos/posters/jinchupalla.png',
+              'video' => 'assets/videos/jinchupalla.mp4',
+          ],
+          [
+              'title' => 'Anfiteatro A',
+              'subtitle' => 'Programas y Proyectos de Innovación Humana',
+              'poster' => 'assets/videos/posters/anfiteatro-A.png',
+              'video' => 'assets/videos/anfiteatro-A.mp4',
+          ],
+          [
+              'title' => '27 de mayo',
+              'subtitle' => 'Programas y Proyectos de Innovación Humana',
+              'poster' => 'assets/videos/posters/27-de-mayo.png',
+              'video' => 'assets/videos/27-de-mayo.mp4',
+          ],
+          [
+              'title' => 'Valle hermoso',
+              'subtitle' => 'Programas y Proyectos de Innovación Humana',
+              'poster' => 'assets/videos/posters/valle-hermoso.png',
+              'video' => 'assets/videos/valle-hermoso.mp4',
+          ],
+          // primeros proyectos
+          [
+              'title' => 'Av. del Poeta ',
               'subtitle' => 'Programas y Proyectos de Innovación Humana',
               'poster' => 'assets/videos/posters/av-del-poeta.png',
               'video' => 'assets/videos/av-del-poeta.mp4',
           ],
           [
-              'title' => 'Av Siles Suazo',
+              'title' => 'Av. Siles Suazo',
               'subtitle' => 'Programas y Proyectos de Innovación Humana',
               'poster' => 'assets/videos/posters/av-siles-suazo.png',
               'video' => 'assets/videos/av-siles-suazo.mp4',
@@ -127,7 +183,7 @@
           <div class="swiper-wrapper">
               @foreach ($videos as $video)
                   <div class="swiper-slide">
-                      <x-video-player title="{{ $video['title'] }}" subtitle="{{ $video['subtitle'] }}"
+                      <x-video-player title="{{ strtoupper($video['title']) }}" subtitle="{{ $video['subtitle'] }}"
                           poster="{{ $video['poster'] }}" src="{{ asset($video['video']) }}" />
                   </div>
               @endforeach

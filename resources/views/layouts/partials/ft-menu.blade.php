@@ -1,6 +1,6 @@
 <a class='link link-hover mx-2 text-base' href="{{ Route('n-home') }}">Inicio</a>
 
-<a class='link link-hover mx-2 text-base' href="{{ Route('n-quienes-somos') }}">Quienes Somos ?</a>
+<a class='link link-hover mx-2 text-base' href="{{ Route('n-quienes-somos') }}">¿Quiénes somos?</a>
 
 <a class='link link-hover mx-2 text-base' href="{{ Route('n-dockweiler') }}">Biografía César Dockweiler</a>
 
@@ -10,6 +10,6 @@
 
 <a class='link link-hover mx-2 text-base' href="{{ Route('n-proyectos-y-programas') }}">Proyectos Priorizados</a>
 
-<a class='link link-hover mx-2 text-base' href="{{ Route('n-candidatos') }}">Candidatos</a> 
+<a class='link link-hover mx-2 text-base' href="{{ Route('n-candidatos') }}">Candidatos</a>
 
 <a class='link link-hover mx-2 text-base' href="{{ Route('n-noticia') }}">Noticias</a>

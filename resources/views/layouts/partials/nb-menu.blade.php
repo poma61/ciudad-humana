@@ -3,7 +3,7 @@
 </li>
 <li
     class="text-base ch-menu-hover {{ request()->routeIs('n-quienes-somos') ? 'ch-menu-active-line ch-color-secondary' : '' }}">
-    <a class='py-3' href="{{ Route('n-quienes-somos') }}">Quiénes Somos ?</a>
+    <a class='py-3' href="{{ Route('n-quienes-somos') }}">¿Quiénes somos?</a>
 </li>
 <li
     class="text-base ch-menu-hover {{ request()->routeIs('n-dockweiler') ? 'ch-menu-active-line ch-color-secondary' : '' }}">
@@ -24,7 +24,7 @@
     <a class='py-3' href="{{ Route('n-proyectos-y-programas') }}">Proyectos Priorizados</a>
 </li>
 
-<li 
+<li
     class="text-base ch-menu-hover {{ request()->routeIs('n-candidatos') || request()->routeIs('n-candidatos-show') ? 'ch-menu-active-line ch-color-secondary' : '' }}">
     <a class='py-3' href="{{ Route('n-candidatos') }}">Candidatos</a>
 </li>
